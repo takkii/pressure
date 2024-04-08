@@ -1,0 +1,25 @@
+*pressure*
+
+version: 2024/04/08
+Author: takkii <karuma.reason@gmail.com>
+License: MIT
+
+==============================================================================
+*環境構築*
+
+環境構築                              Python3, vim-plug, deoplete.nvim
+導入(vim-plug)                        Plug 'takkii/pressure'
+                                      Plug 'takkii/config'
+設定(deoplete.nvim)                   :UpdateRemotePlugins
+依存解消                              pip3 install -r requirements.txt
+Python3.5 ≦  x ＜ Python4.0           Python3.5以上4.0未満を推奨します
+x = go_straight
+
+==============================================================================
+*./go_straight*
+
+辞書読み込み                          $HOME or vim-plug: Neovim/Vim
+バージョンチェック(Windows)           python pake.py
+バージョンチェック(UNIX)              ./pake
+
+==============================================================================
