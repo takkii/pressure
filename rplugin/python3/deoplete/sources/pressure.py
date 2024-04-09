@@ -19,7 +19,7 @@ class Source(Base):
         super().__init__(vim)
         self.name: Optional[str] = 'pressure'
         self.filetypes = ['ruby']
-        mark_synbol: Optional[str] = '[virtual_environment]'
+        mark_synbol: Optional[str] = '[virtual_env]'
         self.mark = str(mark_synbol)
         ruby_match = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         slash_no_match = [r'[;/[^¥/]\*/]']
